@@ -28,7 +28,6 @@ public class Program
             {
                 double squared = i * i;
                 double cubed = i * i * i;
-                //Console.WriteLine($"{i}\t\t{squared}\t\t{cubed}");
                 Console.WriteLine(String.Format("{0,7}\t\t{1,7}\t\t{2,6}", i, squared, cubed));
             }
 
